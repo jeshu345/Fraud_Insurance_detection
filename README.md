@@ -33,21 +33,11 @@ Insurance fraud can lead to significant financial damages. Traditional rule-base
 -Copy
 -Edit
 
-Fraud_Insurance_detection/
-│
-├── data/                # Raw and processed datasets
-├── models/              # Saved model files
-├── notebooks/           # Jupyter notebooks for EDA and training
-├── fraud_lstm.py        # LSTM implementation
-├── fraud_gru.py         # GRU implementation
-├── utils.py             # Preprocessing functions
-├── requirements.txt     # Project dependencies
-└── README.md            # Project documentation
-
 📊 Results
-LSTM Accuracy: ~89%
 
-GRU Accuracy: ~91%
+-LSTM Accuracy: ~89%
+
+-GRU Accuracy: ~91%
 
 Traditional models: Logistic Regression, Random Forest (benchmarked)
 
